@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Darslik">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="10dp">
+
+            <Button
+                android:id="@+id/darslik1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/_1_dars" />
+
+            <Button
+                android:id="@+id/darslik2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/_2_dars" />
+
+            <Button
+                android:id="@+id/darslik3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/_3_dars" />
+
+            <Button
+                android:id="@+id/darslik4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/_4_dars" />
+
+            <Button
+                android:id="@+id/darslik5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/_5_dars" />
+
+            <Button
+                android:id="@+id/darslik6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/_6_dars" />
+
+            <Button
+                android:id="@+id/darslik7"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/_7_dars" />
+
+            <Button
+                android:id="@+id/darslik8"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/_8_dars" />
+
+            <Button
+                android:id="@+id/darslik910"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/_910_dars" />
+
+            <Button
+                android:id="@+id/darslik11"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/_11_dars" />
+
+            <Button
+                android:id="@+id/darslik1213"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/_1213_dars" />
+
+            <Button
+                android:id="@+id/darslik14"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/_14_dars" />
+
+            <Button
+                android:id="@+id/darslik15"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/_15_dars" />
+
+            <Button
+                android:id="@+id/darslik1617"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/_1617_dars" />
+
+            <Button
+                android:id="@+id/webkirish"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/webkirish" />
+
+            <Button
+                android:id="@+id/webyaratish"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/ButtonStyle"
+                android:drawableEnd="@drawable/read"
+                android:text="@string/webyaratish" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_lessons"
+        android:icon="@drawable/book"
+        android:title="@string/darslar"/>
+    <item
+        android:id="@+id/nav_practice"
+        android:icon="@drawable/code"
+        android:title="@string/amaliyot"/>
+    <item
+        android:id="@+id/nav_tests"
+        android:icon="@drawable/quiz"
+        android:title="@string/testlar"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/settings"
+        android:title="@string/sozlamalar"/>
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/info"
+        android:title="@string/about"/>
+</menu>

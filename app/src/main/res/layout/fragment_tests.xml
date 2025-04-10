@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Tests">
+
+    <LinearLayout
+        android:id="@+id/themeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="visible"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        tools:ignore="UselessParent">
+
+
+        <Button
+            android:id="@+id/btnHtml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/html_asoslari"
+            style="@style/ButtonStyle"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnCss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/css_asoslari"
+            style="@style/ButtonStyle"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnJs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/javascript_boshlang_ich"
+            style="@style/ButtonStyle"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnFlexbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/flexbox_to_liq"
+            style="@style/ButtonStyle"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/grid_layout_asoslari"
+            style="@style/ButtonStyle"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnJsDom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/javascript_dom"
+            style="@style/ButtonStyle"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnBootstrap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
+            android:text="@string/bootstrap_5"
+            android:layout_marginBottom="8dp"/>
+
+
+        <Button
+            android:id="@+id/btnGit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/git_github_asoslari"
+            style="@style/ButtonStyle"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnHosting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/web_hosting_va_server"
+            style="@style/ButtonStyle"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnReact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/react_js_asoslari"
+            style="@style/ButtonStyle"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnVue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vue_js_asoslari"
+            style="@style/ButtonStyle"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnAngular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/angular_asoslari"
+            style="@style/ButtonStyle"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/quizLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        tools:ignore="UselessParent">
+
+
+        <!-- Testlar qismi -->
+        <TextView
+            android:id="@+id/textViewQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/savol_bu_yerda_chiqadi"
+            style="@style/TextViewStyle"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+             />
+
+        <Button
+            android:id="@+id/btnOption1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
+            android:text="@string/variant_1"
+            />
+
+        <Button
+            android:id="@+id/btnOption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
+            android:text="@string/variant_2"
+             />
+
+        <Button
+            android:id="@+id/btnOption3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
+            android:text="@string/variant_3"
+             />
+
+        <Button
+            android:id="@+id/btnOption4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
+            android:text="@string/variant_4"
+           />
+
+    </LinearLayout>
+</FrameLayout>

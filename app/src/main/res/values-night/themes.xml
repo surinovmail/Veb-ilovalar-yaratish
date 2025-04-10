@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/primaryDark</item>
+        <item name="colorPrimaryVariant">@color/primaryVariantDark</item>
+        <item name="colorSecondary">@color/secondaryDark</item>
+        <item name="android:colorBackground">@color/backgroundDark</item>
+        <item name="colorOnBackground">@color/textPrimaryDark</item>
+        <item name="colorSurface">@color/surfaceDark</item>
+        <item name="colorOnSurface">@color/textPrimaryDark</item>
+    </style>
+
+
+
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/buttonTextLight</item>
+        <item name="android:backgroundTint">@color/buttonBackgroundDark</item>
+    </style>
+
+
+    <style name="EditTextStyle" parent="ThemeOverlay.Material3.TextInputEditText">
+        <item name="android:textColor">@color/textPrimaryDark</item>
+        <item name="android:backgroundTint">@color/surfaceDark</item>
+    </style>
+
+
+    <style name="RadioButtonStyle" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="android:buttonTint">@color/primary</item>
+    </style>
+
+
+    <style name="TextViewStyle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/textPrimaryDark</item>
+    </style>
+
+
+    <style name="BottomNavStyle">
+        <item name="itemBackground">@color/surfaceDark</item>
+        <item name="itemIconTint">@color/itemicontintdark</item>
+        <item name="itemTextColor">@color/itemtextcolordark</item>
+    </style>
+
+    <style name="MaterialCv">
+        <item name="cardBackgroundColor">@color/surfaceDark</item>
+        <item name="cardCornerRadius">45dp</item>
+    </style>
+
+    <style name="ImageViewStyle">
+        <item name="android:backgroundTint">@color/surfaceDark</item>
+        <item name="android:tint">@color/surfaceLight</item>
+    </style>
+</resources>

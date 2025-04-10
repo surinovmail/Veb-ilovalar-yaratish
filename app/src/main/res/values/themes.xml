@@ -1,0 +1,52 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:colorBackground">@color/backgroundLight</item>
+        <item name="colorOnBackground">@color/textPrimaryLight</item>
+        <item name="colorSurface">@color/surfaceLight</item>
+        <item name="colorOnSurface">@color/textPrimaryLight</item>
+    </style>
+
+
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/buttonTextDark</item>
+        <item name="android:backgroundTint">@color/buttonBackgroundLight</item>
+    </style>
+
+
+    <style name="EditTextStyle" parent="ThemeOverlay.Material3.TextInputEditText">
+        <item name="android:textColor">@color/textPrimaryLight</item>
+        <item name="android:backgroundTint">@color/surfaceLight</item>
+    </style>
+
+
+    <style name="RadioButtonStyle" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="android:buttonTint">@color/primary</item>
+    </style>
+
+
+    <style name="TextViewStyle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/textPrimaryLight</item>
+    </style>
+
+
+    <style name="BottomNavStyle">
+        <item name="itemBackground">@color/surfaceLight</item>
+        <item name="itemIconTint">@color/itemicontintlight</item>
+        <item name="itemTextColor">@color/itemtextcolorlight</item>
+    </style>
+
+    <style name="MaterialCv">
+        <item name="cardBackgroundColor">@color/surfaceLight</item>
+        <item name="cardCornerRadius">45dp</item>
+    </style>
+
+    <style name="ImageViewStyle">
+        <item name="android:tint">@color/surfaceDark</item>
+        <item name="android:backgroundTint">@color/surfaceLight</item>
+    </style>
+
+</resources>
